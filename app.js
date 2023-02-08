@@ -3,12 +3,14 @@ const thanks = document.querySelector("thanks-state");
 let ratingSpan = document.querySelectorAll('.ratingSpan');
 const container = document.querySelector(".container");
 const rates = document.querySelectorAll(".btnnum");
+const start = document.querySelector("state-start")
 
 
  
 
 button.addEventListener("click", () => {
     thanks.classList.remove("hide")
+    start.style.display = "none";
       
 })
 
